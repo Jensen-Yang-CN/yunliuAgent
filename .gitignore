@@ -1,0 +1,40 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+*.log
+
+# === Node.js ===
+node_modules/
+dist/
+
+# === IDE ===
+.idea/
+
+# === 大文件 & 运行时数据 ===
+MultiDetection-backend/app/static/uploads/
+MultiDetection-backend/output_parts/
+
+# === 模型权重（如需要提交，用 Git LFS，否则忽略） ===
+Models/
+MultiDetection-backend/models/
+
+# === 环境变量 & 敏感信息 ===
+.env
+*.pem
+
+# === VLM 运行时输出 ===
+YunliuAIVideo/VLMAnalysis/video_warning/
+YunliuAIVideo/VLMAnalysis/archive/
+YunliuAIVideo/videoData/
+
+# === 数据库 ===
+*.db
+test.db
+
+# === 其他 ===
+*.tmp
+.DS_Store
+Thumbs.db

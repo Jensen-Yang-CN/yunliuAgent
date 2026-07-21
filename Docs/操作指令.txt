@@ -1,0 +1,16 @@
+先启动 YunliuAIVideo 聚合服务（16532）
+终端1：
+cd YunliuAIVideo
+python server.py
+启动智能体后端（8001）
+终端2：
+cd MultiDetection-backend
+python -m uvicorn app.main:app --host 0.0.0.0 --port 8001
+启动前端
+终端3：
+cd yunliu-mining-ai-system
+npm run dev
+
+
+
+提示词：帮我检测工地视频中的安全帽情况
